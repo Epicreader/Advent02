@@ -21,9 +21,8 @@ for (i = 0; i < opcode.length; i += 4) {
     } else if (zero === 99) {
         break;
     }
-
-
 }
+console.log(opcode[0]);
 //part 2
 // These are global vars that make the whole thing work they will be changed many times
 var noun = 0;
